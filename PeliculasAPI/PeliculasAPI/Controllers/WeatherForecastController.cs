@@ -51,6 +51,7 @@ namespace PeliculasAPI.Controllers
         //    return repositorio.ObtenerGUID();
         //}
 
+        [HttpGet("guid")]
         public Guid ObtenerGUIDWeatherforecastController()
         {
             return repositorio.ObtenerGUID();
